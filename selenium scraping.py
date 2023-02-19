@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 import csv
+from selenium.webdriver.chrome.options import Options
 import chromedriver_autoinstaller
 
 chromedriver_autoinstaller.install() 

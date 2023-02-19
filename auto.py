@@ -230,7 +230,7 @@ result_csv_1 = pd.DataFrame(numpy.array(new_csv_first_object), columns=["Article
 result_csv_2 = pd.DataFrame(csv_second_object, columns=["ArticleName"])
 result_csv_3 = pd.DataFrame(numpy.array(new_csv_third_object), columns=["SellableNumberOfItems"])
 
-result_csv = pd.concat([result_csv_1, result_csv_2, result_csv_3], axis=1)
+result_csv = pd.concat([result_csv_1, result_csv_3], axis=1)
 # result_csv1 = pd.DataFrame(result_csv, columns=["ArticleNo", "ArticleName", "SellableNumberOfItems"]).set_index("ArticleNo")
 print("PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPpppppppppppppp",result_csv)
 
